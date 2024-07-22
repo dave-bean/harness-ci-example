@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dave_bean_harness_ci_example_1721676292118-pr-trigger-input-set
+  identifier: Build_dave_bean_harness_ci_example_1721676292118prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dave_bean_harness_ci_example_1721676292118
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
